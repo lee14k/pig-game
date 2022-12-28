@@ -10,6 +10,9 @@ function getNewPig () {
     img.src=pigPositions[num]
     document.body.appendChild(img)
     if (num === 0) {
+
+        //we want to reset the score of whichever player is active
+        //need to write a function that sets score to 0
         console.log('alright')
     }
   
